@@ -1,7 +1,8 @@
+import os
+import re
 from distutils.core import setup
 
 from require import __version__
-
 
 version_str = ".".join(str(n) for n in __version__)
 
